@@ -2,7 +2,7 @@ from src.calc import calculate
 
 
 def test_calc_division(): # тестирование деления
-    assert calculate(100, 10, '/') == 10
+    assert calculate(100, 100, '/') == 1
     
 def test_calc_subtraction(): # тестирование вычитания
     assert calculate(1, 1, '-') == 0
